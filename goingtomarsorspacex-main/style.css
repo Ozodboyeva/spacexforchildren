@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); /* Roboto */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: black;
+}
+:root{
+    --fontFamilyRoboto: "Roboto";
+    
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+
+}
+.navbar{
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+.nav-item{
+    margin-left:35px;
+    list-style: none;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+
+}
+.nav-item_active{
+    font-family:var(--fontFamilyRoboto);
+    margin-left:20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #808080;
+    list-style:none;
+
+
+}
+/* Navbar section done */
+
+/* Heavy-section */
+.heavy h1{
+    margin-top: 16%;
+    margin-left: 12%;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+.heavy p{
+    margin-left: 12%;
+    margin-top: 26px;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+
+}
+.line{
+    margin-top:10%;
+    margin-left:55%;
+    width:59px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+/* Heavy section done */
+
+/* Rocket section */
+
+.rockets-part{
+    display: flex;
+    justify-content: space-between;
+}
+.rockets h2{
+    margin-top: 90%;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 43px;
+
+}
+.rockets h3{
+    margin-top: 11px;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.69%;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+
+
+}
+
+.span{
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.69%;
+    color:#B2B0B2;
+}
+.texts h2{
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+}
+.texts p{
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.part img{
+    margin-left: 40%;
+}
+/* Rocket section done */
+
+/* footer section */
+
+.logo{
+    margin-top: 10%;
+    margin-left: 55%;
+}
+footer p{
+    margin-left: 40%;
+    margin-top: 23px;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+
+   
+}
+.last{
+    font-family: var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #808080;
+
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 52%;
+    height: 60px;
+    border-radius: 6px;
+    width: 270px;
+    border: 2px solid #FFFFFF;
+}
+.btn p{
+    margin-left: 85px;
+    font-family: var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 45%;
+
+
+}
+

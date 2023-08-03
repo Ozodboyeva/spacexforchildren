@@ -1,0 +1,31 @@
+.header-2 {
+  background-image: url(/images/earth.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.children {
+  background-image: url(/images/earth.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  width: 100%;
+  height: 100vh;
+}
+
+.children__part {
+  padding-top: 100px;
+}
+
+.final {
+  background-image: url(/images/womenspace.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  width: 100%;
+  height: 100vh;
+}
+.final .children__text {
+  padding-top: 30px;
+}

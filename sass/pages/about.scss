@@ -1,0 +1,61 @@
+.header-2 {
+  background-image: url(/images/world.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+.about__space {
+  padding-top: 10%;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/world.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+  .texts {
+    margin: 0 auto;
+  }
+}
+.info {
+  padding-top: 10%;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/SpaceX.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+  .text {
+    margin-top: 130px;
+    display: inline-block;
+  }
+}
+.ambition {
+  padding-top: 10%;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/kema.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+}
+.return {
+  padding-top: 10%;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/nasa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+}
+.astra p {
+  margin: 0 auto;
+}
+.situation {
+  padding-top: 10%;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/rocket.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+}
