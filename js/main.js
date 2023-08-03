@@ -5,3 +5,4 @@ toggleBtn.onclick = () => {
   collapse.classList.toggle("hidden");
   collapse.classList.toggle("flex");
 };
+let spaceX = prompt("SpaceXga kirishga tayyormisiz");
